@@ -1,0 +1,97 @@
+root{
+    width: 1280px;
+}
+
+body{
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.welcome{
+    text-align:center;
+    display:grid;
+}
+
+header{
+    background-image: url(images/swiss-valley.jpg);
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    font-size: 18px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    border-color: paleturquoise;
+    box-sizing: border-box;
+    background-color: seagreen;
+  }
+  
+  nav a:hover {
+    color: aqua;
+}
+
+h2{
+    font-size:24px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.index-column-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+.contact-column-layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: start;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 5px;
+
+}
+.form{
+    border-style: solid;
+    line-height: 3.5;
+    font-size: 18px;
+    border-color: lightskyblue;
+    box-sizing: border-box;
+    background-color: lavender;
+}
+
+.contact h2{
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+    background-color: indigo;
+    text-align: center;
+    border-top: 1px solid gray;
+    color:aqua
+  }
+  
+footer p {
+    font-size: 14px;
+    color: aqua;
+    margin: 0;
+  }
